@@ -7,10 +7,10 @@ class App extends React.Component {
     };
 
     add = () => {
-        this.setState( current => ({ count :this.state.count + 1 }));
+        this.setState( current => ({ count :current.count + 1 }));
     };
     minus = () => {
-        this.setState( current => ({ count :this.state.count -1}));
+        this.setState( current => ({ count :current.count -1}));
     }
 
     render(){
